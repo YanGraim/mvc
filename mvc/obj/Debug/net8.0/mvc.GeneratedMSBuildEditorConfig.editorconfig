@@ -18,12 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/yangraim/Documents/dev/JovemProgramador/c#/mvc/mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Aluno/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx1bm8vSW5kZXguY3NodG1s
+[/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Aluno/AdicionarAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx1bm8vQWRpY2lvbmFyQWx1bm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Aluno/InserirAluno.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx1bm8vSW5zZXJpckFsdW5vLmNzaHRtbA==
+[/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Aluno/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx1bm8vRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Aluno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWx1bm8vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/yangraim/Documents/dev/JovemProgramador/c\#/mvc/mvc/Views/Home/Index.cshtml]

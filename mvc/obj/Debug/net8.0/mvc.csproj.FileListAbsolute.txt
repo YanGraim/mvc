@@ -134,3 +134,4 @@
 /Users/yangraim/Documents/dev/JovemProgramador/c#/mvc/mvc/obj/Debug/net8.0/mvc.pdb
 /Users/yangraim/Documents/dev/JovemProgramador/c#/mvc/mvc/obj/Debug/net8.0/mvc.genruntimeconfig.cache
 /Users/yangraim/Documents/dev/JovemProgramador/c#/mvc/mvc/obj/Debug/net8.0/ref/mvc.dll
+/Users/yangraim/Documents/dev/JovemProgramador/c#/mvc/mvc/obj/Debug/net8.0/mvc.sourcelink.json

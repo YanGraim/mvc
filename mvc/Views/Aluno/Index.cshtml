@@ -1,6 +1,6 @@
 @model List<Aluno>
 
-<table class="table">
+<table class="table table-striped">
     <thead>
     <tr>
         <th scope="col">Matricula</th>
@@ -17,7 +17,12 @@
                 <td>@aluno.Matricula </td>
                 <td>@aluno.Nome </td>
                 <td>@aluno.Cpf </td>
-                    
+                <td>
+                    <a type="submit" class="btn btn-primary" role="button" asp-controller="Aluno" asp-action="Editar" asp-route-id="@aluno.Id">Editar</a>
+                </td>
+                <td>
+                    <a type="submit" class="btn btn-primary" role="button" asp-controller="Aluno" asp-action="DeletarAluno" asp-route-id="@aluno.Id">Deletar</a>
+                </td>
             </tr>
         }
     }
@@ -25,5 +30,5 @@
 </table>
 
 <div class="text-center">
-    <a class="btn btn-primary" type="button" asp-controller="Aluno" asp-action="InserirAluno"> Adicionar Aluno </a>
+    <a class="btn btn-primary" type="button" asp-controller="Aluno" asp-action="AdicionarAluno"> Adicionar Aluno </a>
 </div>
