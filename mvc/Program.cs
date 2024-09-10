@@ -10,6 +10,7 @@ builder.Services.AddControllersWithViews();
 var connectionstring = builder.Configuration.GetConnectionString("StringConnexion");
 builder.Services.AddDbContext<BancoContext>(options => options.UseSqlServer(connectionstring));
 builder.Services.AddScoped<IAlunoRepository, AlunoRepository>();
+builder.Services.AddScoped<IProfessorRepository, ProfessorRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
