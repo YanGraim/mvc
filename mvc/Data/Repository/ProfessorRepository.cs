@@ -16,4 +16,10 @@ public class ProfessorRepository : IProfessorRepository
     {
         return _bancoContext.Profesor.ToList();
     }
+
+    public void InserirProfessor(Professor professor)
+    {
+        _bancoContext.Profesor.Add(professor);
+        _bancoContext.SaveChanges();
+    }
 }
